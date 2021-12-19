@@ -1,0 +1,29 @@
+/* 
+    Type: Mobile & Tablet
+    Desc: Dùng chung trên mobile và tablet
+*/
+@media (max-width: 1023px) {
+  .hide-mobile-tablet {
+    display: none;
+  }
+}
+
+/* 
+      Type: Tablet
+      Desc: Dùng trên tablet
+  */
+@media (min-width: 740px) and (max-width: 1023px) {
+  .hide-tablet {
+    display: none;
+  }
+}
+
+/* 
+      Type: Mobile
+      Desc: Dùng trên mobile
+  */
+@media (max-width: 739px) {
+  .hide-mobile {
+    display: none;
+  }
+}

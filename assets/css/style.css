@@ -1,0 +1,17 @@
+.header {
+  color: red;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.main {
+  color: yellow;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.footer {
+  color: green;
+  padding: 50px 0;
+  text-align: center;
+}
