@@ -5,6 +5,9 @@
   --gray-color: #666666;
   --graylight-color: #999999;
   --gold-color: #bf9f5a;
+  --border-color: #ececec;
+  --subnav-color: #afafaf;
+  --red-color: #ff2e2e;
 }
 
 /* Reset css */
@@ -17,7 +20,7 @@
 html,
 body {
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   color: var(--white-color);
 }
 
@@ -39,11 +42,16 @@ button {
 
 a {
   text-decoration: none;
+  color: var(--white-color);
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+ul {
+  list-style: none;
 }
 
 /* Global css */
@@ -57,4 +65,25 @@ img {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   font-weight: 700;
   cursor: pointer;
+}
+
+.active {
+  color: var(--gold-color) !important;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Animation css */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
