@@ -8,6 +8,7 @@
   --border-color: #ececec;
   --subnav-color: #afafaf;
   --red-color: #ff2e2e;
+  --line-color: #484848;
 }
 
 /* Reset css */
@@ -73,6 +74,31 @@ ul {
 
 .hidden {
   display: none;
+}
+
+.mb-2x {
+  margin-bottom: 20px;
+}
+
+.mt-2x {
+  margin-top: 20px;
+}
+
+.mt-4x {
+  margin-top: 40px;
+}
+
+.mb-4x {
+  margin-bottom: 40px;
+}
+
+.mat {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text-center {
+  text-align: center;
 }
 
 /* Animation css */
